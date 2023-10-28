@@ -1,0 +1,1 @@
+CREATE INDEX idx_DepartmentName ON Department ("DepartmentName");
