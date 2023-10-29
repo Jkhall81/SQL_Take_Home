@@ -9,9 +9,9 @@ FROM
 JOIN
 	Department AS d ON p.DepartmentID = d.DepartmentID
 JOIN
-	sex AS s ON p.SexID = s.SexID
+	Sex AS s ON p.SexID = s.SexID
 WHERE
 	d.DepartmentName = "Operations";
 	
--- Query without index was 13ms
+-- This executes without erros in sql server, just need to add GO to the end (in sqlcmd).
 

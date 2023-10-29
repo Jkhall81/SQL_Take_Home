@@ -5,3 +5,5 @@ FROM Project AS p
 LEFT JOIN Person_Project AS pp ON p.ProjectID = pp.ProjectID
 GROUP BY p.ProjectName
 ORDER BY p.ProjectName;
+
+-- This ran in sqlserver without any errors.

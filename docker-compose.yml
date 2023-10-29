@@ -16,3 +16,5 @@ services:
     image: mcr.microsoft.com/mssql-tools
     container_name: sqlclient
     command: sleep infinity
+    volumes:
+      - /home/jason/CodingStuff/sql_takehome/TSQL_Scripts:/var/opt

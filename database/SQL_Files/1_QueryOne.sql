@@ -18,3 +18,5 @@ WHERE
 	d.DepartmentName IN ('Business', 'Pharmacy')
 ORDER BY
 	"First Name", "Last Name", "Department Name", "Project Name";
+
+-- This executed without errors in sql server
