@@ -15,3 +15,9 @@ WHERE
 	
 -- This executes without erros in sql server, just need to add GO to the end (in sqlcmd).
 
+/*
+The index I created didn't really make this query any faster, but it might if there
+was more data in the tables.  I do not know for sure.  Other than creating an index, I am unsure 
+of what other methods could be used to make a query like this execute more quickly.
+*/
+
