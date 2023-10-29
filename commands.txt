@@ -1,0 +1,15 @@
+
+** connect client to sql server
+sqlcmd -S sqlserver -U SA -P 'Password1@'
+
+** connect to container
+docker exec -it sqlclient /bin/bash
+
+** list DBs on server
+SELECT Name from sys.databases;
+
+** copy script into sql server
+docker cp /home/jason/CodingStuff/sql_takehome/TSQL_Scripts/CreateDB.sql sqlclient:/var/opt/CreateDB.sql
+
+** run script in sql server / via sqlcmd
+:r /var/opt/ScriptName.sql

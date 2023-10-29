@@ -1,0 +1,5 @@
+Command 'Name' not found, did you mean:
+  command 'mame' from snap mame (mame0259)
+  command 'lame' from deb lame (3.100-3build2)
+  command 'mame' from deb mame (0.242+dfsg.1-1)
+See 'snap info <snapname>' for additional versions.

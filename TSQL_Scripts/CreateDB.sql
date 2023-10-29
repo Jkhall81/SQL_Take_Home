@@ -1,0 +1,12 @@
+CREATE DATABASE TestDB;
+GO
+USE TestDB;
+CREATE TABLE Sex (
+    SexId INT, 
+    SexValue NVARCHAR(10),
+    PRIMARY KEY (SexId)
+    );
+INSERT INTO Sex VALUES (3, 'NonBinary');
+INSERT INTO Sex VALUES (2, 'Female');
+INSERT INTO Sex VALUES (1, 'Male');
+GO

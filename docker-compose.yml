@@ -11,3 +11,8 @@ services:
       - "1433:1433"
     volumes:
       - ./database:/var/opt/mssql/custom-data
+
+  sqlclient:
+    image: mcr.microsoft.com/mssql-tools
+    container_name: sqlclient
+    command: sleep infinity
